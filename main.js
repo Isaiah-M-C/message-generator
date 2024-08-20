@@ -3,4 +3,4 @@ const chooseMessage = () => {
     return compliments[Math.floor(Math.random() * 4)];
 };
 
-console.log(chooseMessage);
+console.log(chooseMessage());
